@@ -42,7 +42,9 @@ school.student["dept3"]="civil";
  console.log(school.student.at[-1]);
  console.log(school.student[0]);
 // //school.S2["dept"]="eee";
-// // console.log(school);    // why it shows error // how to set Akash dept as EEE
+// // console.log(school);    // why it shows error // how to set Akash dept as EEE ?????
+let deptset = school.student.S2.map(element =>{return {...element, dept:"EEE"};});
+console.log(school); // why it is not working ???????????????
 
 //forEach loop
 school.student.forEach(element => {
