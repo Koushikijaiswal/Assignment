@@ -45,6 +45,8 @@ school.student["dept3"]="civil";
 // // console.log(school);    // why it shows error // how to set Akash dept as EEE ?????
 let deptset = school.student.S2.map(element =>{return {...element, dept:"EEE"};});
 console.log(school); // why it is not working ???????????????
+school.student[1].S2["dept"] = "information technology";
+console.log(school);
 
 //forEach loop
 school.student.forEach(element => {
